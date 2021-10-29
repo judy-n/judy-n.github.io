@@ -126,6 +126,10 @@ footer a:hover {
   justify-content: center;
 }
 
+.icons .mailIcon {
+  width: 53.27px;
+}
+
 .icons img {
   width: 40px;
   height: 40px;
@@ -138,17 +142,17 @@ h2 {
   color: #9db4c0;
 }
 
-.stuff {
+.welcome {
   display: flex;
   flex-direction: column;
   align-content: center;
 }
 
-.stuff hr {
+.welcome hr {
   display: flex;
   border: none;
   background-color: #9db4c0;
   height: 6px;
   width: 100%;
-  margin-top: 20px;
+  margin-top: 50px;
 }
