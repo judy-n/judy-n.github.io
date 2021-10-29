@@ -5,11 +5,8 @@
 }
 
 body {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  position: relative;
+  display: grid;
+  place-items: center;
   min-height: 100vh;
   font-family: "Roboto Condensed", sans-serif;
 }
@@ -99,27 +96,6 @@ nav .menuItems li a:hover::before {
   width: 100%;
 }
 
-footer {
-  position: absolute;
-  font-size: 12px;
-  bottom: 0;
-  width: 100%;
-  height: 60px;
-  line-height: 60px;
-  font-size: 14px;
-  background-color: #f1f1f1;
-  color: #000000;
-  text-align: center;
-}
-footer a {
-  text-decoration: none;
-  color: inherit;
-  border-bottom: 1px solid;
-}
-footer a:hover {
-  border-bottom: 1px transparent;
-}
-
 .icons {
   display: flex;
   flex-direction: row;
@@ -143,16 +119,29 @@ h2 {
 }
 
 .welcome {
+  margin-top: 300px;
+  align-content: space-around;
   display: flex;
   flex-direction: column;
-  align-content: center;
+  justify-content: center;
+  align-items: center;
+  position: relative;
 }
 
 .welcome hr {
-  display: flex;
   border: none;
   background-color: #9db4c0;
   height: 6px;
-  width: 100%;
+  width: 140%;
   margin-top: 50px;
+  align-self: center;
+}
+
+.about {
+  display: grid;
+  place-items: center;
+  width: 800px;
+  height: 200px;
+  background-color: #9db4c0;
+  margin-top: 150px;
 }
