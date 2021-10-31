@@ -1,14 +1,16 @@
 * {
   padding: 0;
   margin: 0;
-  background-color: #f4f3ee;
 }
 
 body {
+  padding: 0;
+  margin: 0;
   display: grid;
   place-items: center;
   min-height: 100vh;
   font-family: "Roboto Condensed", sans-serif;
+  background-color: #f4f3ee;
 }
 
 div {
@@ -143,5 +145,38 @@ h2 {
   width: 800px;
   height: 200px;
   background-color: #9db4c0;
-  margin-top: 150px;
+  margin-top: 100px;
+  border-radius: 10px;
+  grid-template-areas: "a c";
+}
+
+.about h2 {
+  color: #f4f3ee;
+  margin: 10px;
+}
+
+.about img {
+  width: 100px;
+  height: 100px;
+  margin-top: 10px;
+}
+
+.about-me {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  align-content: flex-start;
+  height: 150px;
+}
+
+.about p {
+  grid-area: "c";
+  font-size: 20px;
+  color: #f4f3ee;
+  margin-top: 10px;
+}
+
+.about-h {
+  grid-area: "a";
+  margin: 25px;
 }
