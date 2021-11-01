@@ -10,11 +10,11 @@ body {
   place-items: center;
   min-height: 100vh;
   font-family: "Roboto Condensed", sans-serif;
-  background-color: #f4f3ee;
+  background-color: #274c77;
 }
 
 div {
-  color: #727272;
+  color: #002962;
   text-align: center;
 }
 
@@ -31,13 +31,13 @@ p {
   font-family: "Lexend Deca", sans-serif;
   text-transform: uppercase;
   font-size: 120px;
-  color: #ccd3d7;
+  color: #274c77;
 }
 
 p::before {
   content: attr(data-item);
   transition: all 1s ease-in-out;
-  color: #9db4c0;
+  color: #a3cef1;
   position: absolute;
   top: 0;
   bottom: 0;
@@ -52,32 +52,32 @@ p:hover::before {
 
 nav {
   margin: 25px;
-  background-color: #f4f3ee;
+  background-color: #274c77;
   padding: 10px;
 }
 nav .menuItems {
   list-style: none;
   display: flex;
   justify-content: center;
-  background-color: #9db4c0;
+  background-color: #6096ba;
 }
 nav .menuItems li {
   margin: 50px;
 }
 nav .menuItems li a {
   text-decoration: none;
-  color: #253237;
+  color: #274c77;
   font-size: 30px;
   font-weight: 40;
   transition: all 0.5s ease-in-out;
   position: relative;
   text-transform: uppercase;
-  background-color: #9db4c0;
+  background-color: #6096ba;
 }
 nav .menuItems li a::before {
   content: attr(data-item);
   transition: 0.5s;
-  color: #e0fbfc;
+  color: #a3cef1;
   position: absolute;
   top: 0;
   bottom: 0;
@@ -117,11 +117,15 @@ nav .menuItems li a:hover::before {
 h2 {
   font-size: 30px;
   font-weight: 600;
-  color: #9db4c0;
+  color: #274c77;
 }
 
 .welcome {
   margin-top: 300px;
+  background-color: #6096ba;
+  border-radius: 10px;
+  width: 800px;
+  height: 350px;
   align-content: space-around;
   display: flex;
   flex-direction: column;
@@ -130,12 +134,12 @@ h2 {
   position: relative;
 }
 
-.welcome hr {
+hr {
   border: none;
-  background-color: #9db4c0;
+  background-color: #6096ba;
   height: 6px;
-  width: 140%;
-  margin-top: 50px;
+  width: 40%;
+  margin-top: 100px;
   align-self: center;
 }
 
@@ -144,14 +148,14 @@ h2 {
   place-items: center;
   width: 800px;
   height: 200px;
-  background-color: #9db4c0;
+  background-color: #6096ba;
   margin-top: 100px;
   border-radius: 10px;
   grid-template-areas: "a c";
 }
 
 .about h2 {
-  color: #f4f3ee;
+  color: #274c77;
   margin: 10px;
 }
 
@@ -169,14 +173,35 @@ h2 {
   height: 150px;
 }
 
-.about p {
+.about-side {
   grid-area: "c";
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.about-side p {
   font-size: 20px;
-  color: #f4f3ee;
+  color: #a3cef1;
   margin-top: 10px;
 }
 
 .about-h {
   grid-area: "a";
   margin: 25px;
+}
+
+.res-btn {
+  border: 3px solid #274c77;
+  width: 15%;
+  border-radius: 5px;
+  text-decoration: none;
+  box-sizing: border-box;
+  padding: 0.35em 1.2em;
+  color: #274c77;
+}
+
+.res-btn:hover {
+  background-color: #274c77;
+  color: #a3cef1;
 }
