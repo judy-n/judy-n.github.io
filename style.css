@@ -157,6 +157,7 @@ hr {
 }
 
 .about h2 {
+  font-size: 2.5rem;
   color: #274c77;
   /* margin-top: 10px; */
 }
@@ -226,7 +227,9 @@ hr {
 }
 
 .projects h2 {
+  font-size: 2.5rem;
   margin: 2rem;
+  margin-bottom: 1rem;
 }
 
 .projects-table {
@@ -241,7 +244,7 @@ hr {
   flex-direction: column-reverse;
   justify-items: center;
   background-color: #274c77;
-  /* width: 16rem; */
+  width: 16rem;
   height: 14rem;
   border-radius: 10px;
   max-width: 16rem;
@@ -320,4 +323,23 @@ hr {
 .skills-used {
   display: flex;
   justify-content: center;
+}
+
+#diff-skill {
+  color: white;
+  border-color: white;
+}
+
+.proj-line {
+  border: none;
+  background-color: #274c77;
+  height: 3px;
+  width: 10%;
+  margin: 0;
+  align-self: center;
+}
+
+#hover-info {
+  font-size: 20px;
+  color: #a3cef1;
 }
