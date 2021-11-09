@@ -23,8 +23,8 @@ p {
   font-size: 30px;
   font-family: "DM Sans", sans-serif;
   color: #9db4c0;
-  font-weight: 600;
   position: relative;
+  text-align: left;
 }
 
 .bigName {
@@ -297,6 +297,8 @@ hr {
   opacity: 0;
   font-size: 15px;
   margin-top: 2rem;
+  width: 100%;
+  padding: 0.5rem;
 }
 
 .proj-desc h4 {
@@ -304,8 +306,9 @@ hr {
   font-size: 10px;
   color: #274c77;
   /* width: 60%; */
-  border: 2px solid #274c77;
-  /* box-shadow: 0 3px 10px rgb(0 0 0 / 0.2); */
+  /* border: 2px solid #274c77; */
+  background-color: #a3cef1;
+  box-shadow: 0 3px 10px rgb(0 0 0 / 0.2);
   border-radius: 6px;
   opacity: 0;
 }
