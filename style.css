@@ -149,7 +149,8 @@ hr {
   flex-direction: column;
   row-gap: 10px;
   width: 50%;
-  height: 320px;
+  /* height: 320px; */
+  height: 90%;
   background-color: #6096ba;
   margin-top: 100px;
   border-radius: 10px;
@@ -203,8 +204,7 @@ hr {
   width: 15%;
   border-radius: 5px;
   text-decoration: none;
-  box-sizing: border-box;
-  padding: 0.35em 1.2em;
+  padding: 0.35em 0.35em;
   color: #274c77;
 }
 
@@ -246,8 +246,8 @@ hr {
   flex-direction: column-reverse;
   justify-items: center;
   background-color: #274c77;
-  width: 16rem;
-  height: 14rem;
+  /* width: 16rem; */
+  /* height: 14rem; */
   border-radius: 10px;
   max-width: 16rem;
 }
