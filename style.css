@@ -195,6 +195,8 @@ hr {
   margin-left: 3rem;
   flex-direction: row;
   align-items: center;
+  flex-wrap: wrap;
+  justify-content: center;
 }
 
 .about-side p {
@@ -245,8 +247,10 @@ hr {
 }
 
 .projects-table {
-  display: grid;
-  grid-template-columns: repeat(3, auto);
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  /* grid-template-columns: repeat(3, auto); */
   column-gap: 2rem;
   row-gap: 2rem;
 }
@@ -357,4 +361,59 @@ hr {
 #hover-info {
   font-size: 20px;
   color: #a3cef1;
+}
+
+@media only screen and (max-width: 600px) {
+  .welcome {
+    width: 100%;
+  }
+
+  .about {
+    width: 100%;
+  }
+
+  .menuContainer {
+    width: 100%;
+  }
+
+  nav .menuItems li a {
+    font-size: 1.2em;
+  }
+
+  .about-side {
+    flex-direction: column;
+    margin-left: 1rem;
+  }
+
+  .projects {
+    width: 100%;
+  }
+}
+
+@media (min-width: 600px) and (max-width: 768px) {
+  .welcome {
+    width: 100%;
+  }
+
+  .about {
+    width: 100%;
+  }
+
+  .menuContainer {
+    width: 100%;
+  }
+
+  nav .menuItems li a {
+    font-size: 1.5em;
+  }
+
+  .projects {
+    width: 100%;
+  }
+}
+
+@media only screen and (min-width: 1000px) {
+  .about-side {
+    flex-wrap: nowrap;
+  }
 }
