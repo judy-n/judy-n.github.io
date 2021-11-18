@@ -1,3 +1,7 @@
+html {
+  scroll-behavior: smooth;
+}
+
 * {
   padding: 0;
   margin: 0;
@@ -11,6 +15,7 @@ body {
   min-height: 100vh;
   font-family: "DM Sans", sans-serif;
   background-color: #274c77;
+  scroll-behavior: smooth;
 }
 
 div {
@@ -50,6 +55,10 @@ p:hover::before {
   width: 100%;
 }
 
+.welcome:hover p::before {
+  width: 100%;
+}
+
 nav {
   margin: 25px;
   background-color: #274c77;
@@ -59,10 +68,11 @@ nav .menuItems {
   list-style: none;
   display: flex;
   justify-content: center;
+  align-items: center;
   background-color: #6096ba;
 }
 nav .menuItems li {
-  margin: 50px;
+  margin: 2rem;
 }
 nav .menuItems li a {
   text-decoration: none;
