@@ -431,3 +431,7 @@ display: flex;
   font-size: 15px;
 }
 
+figcaption {
+  color: #a3cef1;
+}
+
