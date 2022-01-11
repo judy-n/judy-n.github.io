@@ -134,7 +134,6 @@ h2 {
   margin-top: 300px;
   background-color: #6096ba;
   border-radius: 10px;
-  /* width: 800px; */
   width: 50%;
   height: 350px;
   align-content: space-around;
@@ -435,3 +434,7 @@ figcaption {
   color: #a3cef1;
 }
 
+/* For Safari only */
+_::-webkit-full-page-media, _:future, :root .proj-title.big  {
+  font-size: 13px;
+}
